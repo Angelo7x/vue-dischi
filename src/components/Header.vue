@@ -12,7 +12,8 @@ export default {
 
 <style lang="scss" scoped>
   header {
-    background-color: #505d6b;
+    background-color: #2E3A46;
+    height: 70px;
     img {
       width: 100px;
       padding: 10px;
