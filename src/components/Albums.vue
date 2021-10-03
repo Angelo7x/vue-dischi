@@ -35,6 +35,7 @@ section {
 }
 
 .albums-container {
+    padding: 100px 0;
     width: 70%;
     margin: 0 auto;
     display: flex;
