@@ -16,7 +16,7 @@ export default {
 
 <style lang="scss" scoped>
     .album {
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
         color: white;
         padding: 20px;
