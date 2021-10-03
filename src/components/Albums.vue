@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="albums-container">
-            <Album  v-for="(album, index) in albums" :key="index"/>
+            <Album v-for="(album, index) in albums" :key="index" :info="album"/>
         </div>
     </section>
 </template>
@@ -35,11 +35,11 @@ section {
 }
 
 .albums-container {
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
 }
 
 </style>

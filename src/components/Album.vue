@@ -1,32 +1,37 @@
 <template>
     <div class="album">
-        <img src="data:image/png;base64,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" alt="disco">
-        <h1>New jesrsey</h1>
-        <div>Bon Jovi</div>
-        <div>1988</div>
+        <img :src="info.poster" :alt="info.author">
+        <h1>{{info.title}}</h1>
+        <div>{{info.author}}</div>
+        <div>{{info.year}}</div>
     </div>
-
 </template>
 
 <script>
 export default {
-    name: "Album"
+    name: "Album",
+    props: {
+        info: Object
+    },
 }
 </script>
 
 <style lang="scss" scoped>
     .album {
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-right: 40px;
         text-align: center;
         color: white;
         padding: 20px;
         background-color: #2E3A46;
+        width: calc((100% / 5) - 40px);
             div {
                 color: #80746c;
+                width: 100%;
             }
 
             img {
-                width: 150px;
+                width: 100%;
             }
     }
 
